@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Lens by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>工作界面</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]>
+		<script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]>
+		<link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+		<!--[if lte IE 9]>
+		<link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading-0 is-loading-1 is-loading-2">
+
+		<!-- Main -->
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1>UTag</h1>
+						<p>针对照片中的区域标注<a href="http://html5up.net">HTML5 UP</a></p>
+
+						<div class="icons">
+							<label for="Category">备选类别</label>
+							<div class="icons">
+                                
+								<select name="Category" id="Category" onchange="document.getElementById('Category').value=this.value">
+									<option value="">- Category -</option>
+									<option value="1">dog</option>
+									<option value="2">cat</option>
+									<option value="3">human</option>
+									<option value="4">bird</option>
+								</select>
+                                <input id="input" name="input" class="icons">
+                            </div>
+						</div>
+
+						<div class="icons">
+							<label for="message">标注描述</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+
+						<ul class="icons">
+							<li><a href="#" class="button">保存</a></li>
+						</ul>
+					</header>
+
+				<!-- Thumbnail -->dog.png
+					<section id="thumbnails">
+						<article>
+							<a class="thumbnail" href="src/dog.png" data-position="left"><img src="src/dog.png" alt="" /></a>
+							<h2>Diam tempus accumsan</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</article>
+						<article>
+							<a class="thumbnail" href="src/young.png"><img src="src/young.png" alt="" /></a>
+							<h2>Vivamus convallis libero</h2>
+							<p>Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
+						</article>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://UTag.net">UTag</a>.</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<!--[if lte IE 8]>
+		<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
